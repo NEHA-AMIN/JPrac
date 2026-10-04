@@ -1,0 +1,6 @@
+public class Emailnotification implements Notification {
+    @Override
+    public void send(String message) {
+        System.out.println("Email notification: " + message);
+    }
+}
